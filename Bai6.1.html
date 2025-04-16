@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <table>
+        <tr>
+            <td><a href="bai1.html">Bài 1</a></td>
+            <td><a href="Bai6.1.html">Bài 2</a></td>
+            <td><a href="Bai6.2.html">Bài 3</a></td>
+            <td><a href="b1-2.html">Bài 4</a></td>
+        </tr>
+    </table>
+    <meta charset="UTF-8">
+    <title>Đổi màu</title>
+    <style>
+        #text {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        button {
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>  
+<p id="text">đổi màu tôi đi</p>
+<button onclick="doiMau()">xanh</button>
+    <script>
+    function doiMau() {
+        document.getElementById("text").style.color = "blue";
+    }
+    </script>
+</body>
+</html>
